@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 abstract class ChatsEntity {
   final String id;
   final String chatName;

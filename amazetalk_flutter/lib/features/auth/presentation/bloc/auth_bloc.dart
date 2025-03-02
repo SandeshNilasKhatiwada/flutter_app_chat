@@ -1,13 +1,9 @@
-import 'dart:math';
-
 import 'package:amazetalk_flutter/features/auth/data/datasource/auth_local_data_source.dart';
 import 'package:amazetalk_flutter/features/auth/domain/usecases/login_usecase.dart';
 import 'package:amazetalk_flutter/features/auth/domain/usecases/register_usecase.dart';
 import 'package:amazetalk_flutter/features/auth/presentation/bloc/auth_event.dart';
 import 'package:amazetalk_flutter/features/auth/presentation/bloc/auth_state.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   final RegisterUsecase registerUsecase;

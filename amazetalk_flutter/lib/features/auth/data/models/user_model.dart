@@ -1,10 +1,4 @@
-import 'dart:convert';
-import 'dart:io';
-
 import 'package:amazetalk_flutter/features/auth/domain/entities/user_entity.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/services.dart';
-import 'package:gal/gal.dart';
 
 import 'img_saver.dart';
 
