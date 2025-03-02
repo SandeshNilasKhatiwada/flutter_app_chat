@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:amazetalk_flutter/features/conversation/domain/entities/message_entity.dart';
 
 class Message extends MessageEntity {

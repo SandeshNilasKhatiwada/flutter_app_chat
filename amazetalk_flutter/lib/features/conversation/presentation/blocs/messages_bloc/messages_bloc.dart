@@ -1,11 +1,9 @@
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../auth/data/datasource/auth_local_data_source.dart';
 import '../../../domain/entities/message_entity.dart';
-import '../../../domain/entities/messages_entity.dart';
 import '../../../domain/usecase/chats_usecase.dart';
-import '../../../domain/usecase/fetch_conversations_usecase.dart';
 
 part 'messages_event.dart';
 part 'messages_state.dart';
